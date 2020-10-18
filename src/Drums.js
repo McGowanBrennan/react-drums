@@ -31,39 +31,39 @@ class Drums extends React.Component{
     handleClick = e =>{
         let drumNum = e.target.id
         console.log(drumNum)
-        if(drumNum == 7 ){
+        if(parseInt(drumNum) === 7 ){
             console.log("jid")
             this.drum7.play()
         }
-        if(drumNum == 8 ){
+        if(parseInt(drumNum) === 8 ){
             console.log("jid")
             this.drum8.play()
         }
-        if(drumNum == 4 ){
+        if(parseInt(drumNum) === 4 ){
             console.log("jid")
             this.drum4.play()
         }
-        if(drumNum == 5 ){
+        if(parseInt(drumNum) === 5 ){
             console.log("jid")
             this.drum5.play()
         }
-        if(drumNum == 6 ){
+        if(parseInt(drumNum) === 6 ){
             console.log("jid")
             this.drum6.play()
         }
-        if(drumNum == 9 ){
+        if(parseInt(drumNum) === 9 ){
             console.log("jid")
             this.drum9.play()
         }
-        if(drumNum == 1 ){
+        if(parseInt(drumNum) === 1 ){
             console.log("jid")
             this.drum1.play()
         }
-        if(drumNum == 2 ){
+        if(parseInt(drumNum) === 2 ){
             console.log("jid")
             this.drum2.play()
         }
-        if(drumNum == 3 ){
+        if(parseInt(drumNum) === 3 ){
             console.log("jid")
             this.drum3.play()
         }
